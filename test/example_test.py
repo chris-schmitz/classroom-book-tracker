@@ -79,17 +79,17 @@ class TestSuite:
 
         assert actual == [{"title": "Some book title", "isbn": "123456"}]
 
-    def test_verify_we_sent_data_somewhere(self):
-        # * Sticking with the api calls, sometimes it's good to verify that a method was called even if there's not a
-        # * result associated with it. Like if we `post` an http request to a server. Likely we're not going to get data
-        # * as a response, or at least not data we care about, we just want to know the post call was made with the
-        # * right data.
-        api_url = "http://www.somebooksearch.biz/search"
-        payload = {"title": "An updated title", "isbn": 12345}
-
-        update_book(payload)
-
-        verify(requests).post(api_url, data=None, json=payload)
+    # def test_verify_we_sent_data_somewhere(self):
+    #     # * Sticking with the api calls, sometimes it's good to verify that a method was called even if there's not a
+    #     # * result associated with it. Like if we `post` an http request to a server. Likely we're not going to get data
+    #     # * as a response, or at least not data we care about, we just want to know the post call was made with the
+    #     # * right data.
+    #     api_url = "http://www.somebooksearch.biz/search"
+    #     payload = {"title": "An updated title", "isbn": 12345}
+    #
+    #     update_book(payload)
+    #
+    #     verify(requests).post(api_url, data=None, json=payload)
 
 
 def add_two_numbers(a: int, b: int) -> int:

@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7724bc94-82bf-4df4-a822-8cfbfe0a641e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/classroom-book-tracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/example_test.py" afterDir="false" />
+    <list default="true" id="7724bc94-82bf-4df4-a822-8cfbfe0a641e" name="Changes" comment="sets up project and adds testing examples">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test-requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/example_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/example_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,7 @@
     "Python tests.Python tests for example_test.TestSuite.test_verify_we_sent_data_somewhere.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -195,7 +183,20 @@
       <option name="presentableId" value="Default" />
       <updated>1727526066338</updated>
     </task>
+    <task id="LOCAL-00001" summary="sets up project and adds testing examples">
+      <option name="closed" value="true" />
+      <created>1727550778863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727550778863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sets up project and adds testing examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="sets up project and adds testing examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
